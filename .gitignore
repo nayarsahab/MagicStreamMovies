@@ -1,0 +1,85 @@
+# =====================================
+# Operating System Files
+# =====================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# =====================================
+# IDEs and Editors
+# =====================================
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*~
+
+# =====================================
+# Environment Variables & Secrets
+# =====================================
+.env
+.env.*
+!.env.example
+*.local
+
+# =====================================
+# Logs
+# =====================================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =====================================
+# Node.js / React (Client)
+# =====================================
+node_modules/
+ClientReact/magic-stream-client/node_modules/
+dist/
+ClientReact/magic-stream-client/dist/
+dist-ssr/
+ClientReact/magic-stream-client/dist-ssr/
+.eslintcache
+
+# =====================================
+# Go (Server)
+# =====================================
+# Compiled binaries and executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+ServerGo/MagicStreamMoviesServer/MagicStreamMoviesServer
+ServerGo/MagicStreamMoviesServer/MagicStreamMoviesServer.exe
+ServerGo/MagicStreamMoviesServer/server
+ServerGo/MagicStreamMoviesServer/server.exe
+
+# Output of the go coverage tool
+*.cover
+*.coverage
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Go vendor directory
+vendor/
+
